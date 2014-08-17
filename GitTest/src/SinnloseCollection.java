@@ -14,6 +14,8 @@ public class SinnloseCollection {
 	public SinnloseCollection(){
 		testList = new ArrayList<String>();
 		testList.add("Bratwurst");
+		testList.add("Berner Würstchen");
+		testList.add("Nacken");
 		
 		for (String ausgabe : testList) {
 			System.out.println(ausgabe);
